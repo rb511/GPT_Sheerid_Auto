@@ -1,0 +1,32 @@
+{
+    "accessToken": "你的ChatGPT accessToken，登录后访问 chatgpt.com/api/auth/session 获取",
+    "programId": "690415d58971e73ca187d8c9",
+
+    "_comment": "邮箱配置二选一：IMAP 或 CloudMail",
+
+    "email_imap示例": {
+        "type": "imap",
+        "imap_server": "imap.gmail.com",
+        "imap_port": 993,
+        "email_address": "your_email@gmail.com",
+        "email_password": "your_app_password",
+        "use_ssl": true
+    },
+
+    "email_cloudmail示例": {
+        "type": "cloudmail",
+        "api_url": "https://your-cloudmail-api.com",
+        "admin_email": "admin@example.com",
+        "admin_password": "your_admin_password",
+        "email_address": "receive@yourdomain.com"
+    },
+
+    "email": {
+        "type": "imap",
+        "imap_server": "imap.gmail.com",
+        "imap_port": 993,
+        "email_address": "your_email@gmail.com",
+        "email_password": "your_app_password",
+        "use_ssl": true
+    }
+}

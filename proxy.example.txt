@@ -1,0 +1,19 @@
+# 代理配置文件
+# 支持多种格式，每行一个代理，随机选择使用
+#
+# 格式1: ip:port:username:password (SOCKS5 认证代理)
+# 格式2: ip:port (HTTP 代理)
+# 格式3: socks5://username:password@ip:port (完整 URL)
+# 格式4: http://ip:port (HTTP URL)
+#
+# 示例:
+
+# 认证代理
+192.168.1.100:1080:user123:pass456
+
+# 无认证代理
+192.168.1.101:8080
+
+# URL 格式
+socks5://user:pass@proxy.example.com:1080
+http://proxy.example.com:8080
